@@ -1,0 +1,52 @@
+:root {
+  --background: black;
+  --textColor: white;
+  --bodyFamily: 'Roboto';
+  --headerFamily: 'Roboto Slab';
+  --bodyWeight: 400;
+  --boldWeight: 600;
+  --headerWeight: 600;
+  --bodySize: 18;
+  --lineHeight: 1.5;
+}
+
+html {
+  font-size: var(--bodySize);
+  font-weight: var(--bodyWeight);
+  hyphens: auto;
+  text-align: justify;
+  word-wrap: break-word;
+  font-kerning: normal;
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  -webkit-locale: 'en';
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--bodyFamily);
+  background: var(--background);
+  color: var(--textColor);
+  padding: 0;
+  margin: 0;
+  line-height: var(--lineHeight);
+}
+
+p {
+  margin: 0.3em;
+  font-family: var(--bodyFamily);
+}
+
+strong {
+  font-weight: var(--boldWeight);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headerFamily);
+  font-weight: var(--headerWeight);
+}
