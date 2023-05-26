@@ -40,7 +40,7 @@ export const FONT_THEMES = {
     boldWeight: 400,
     headerWeight: 100,
     bodySize: 18,
-    fontProportion: 2.1594
+    fontProportion: 1.912
   },
   noto: {
     bodyFamily: 'Noto Serif',
@@ -49,6 +49,6 @@ export const FONT_THEMES = {
     boldWeight: 600,
     headerWeight: 600,
     bodySize: 16,
-    fontProportion: 1.9684
+    fontProportion: 1.76
   }
 }
